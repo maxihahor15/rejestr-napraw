@@ -8,7 +8,10 @@
     </head>
 
     <style>
-
+        .container, .row
+        {
+            padding: 0;
+        }
     </style>
 
     @yield('style')
@@ -21,6 +24,16 @@
                 </div>
             </div>
             <div class="row">
+                <nav class="navbar navbar-default navbar-static-top">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="#">
+                                    Home
+                                </a>
+                            </li>
+                        </ul>
+                    </dvi>
+                </nav>
             </div>
         </div>
         <div class="container">

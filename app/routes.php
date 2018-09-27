@@ -13,5 +13,25 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
+	return View::make('layout');
+});
+
+Route::get('/login', function()
+{
+	return View::make('login');
+});
+
+Route::get('/menu', function()
+{
+	return View::make('panel/menu');
+});
+
+Route::get('/new', function()
+{
+	return View::make('panel/new-call');
+});
+
+Route::get('{ipport}/admin', function()
+{
+	return 'test123';
 });
